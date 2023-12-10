@@ -24,6 +24,13 @@ li{
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+
+    
 }
 
 ul{
