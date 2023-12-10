@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
