@@ -5,15 +5,22 @@
 }
 
 body{
-    background-color: #1f2937;
-    margin: 50px;
+margin: 0;
+}
+.dark, .banner{
+    padding: 50px;
+    background: #1f2937;
 
 }
-.dark{
 
+.banner{
+    display:flex;
+    flex-direction: column;
 }
 
+.heading{
 
+}
 
 .body{
     display: flex;
