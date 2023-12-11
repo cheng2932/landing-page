@@ -4,8 +4,23 @@
     align-items: center;
 }
 
+button{
+    display: block;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+}
 body{
 margin: 0;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
 }
 .dark, .banner{
     padding: 50px;
@@ -19,6 +34,8 @@ margin: 0;
 }
 
 .heading{
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -71,10 +88,12 @@ ul{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding: 100px;
 }
 
 .container{
-    display:flex
+    display:flex;
+    padding: 10px;
 }
 
 .testimony{
